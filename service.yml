@@ -7,6 +7,6 @@ spec:
     app:  mydep
   type:   NodePort
   ports:
-  - name:  NodePort
-    port:  80
-    targetPort:  30008
+   - port:  80
+     targetPort:  80
+     nodePort: 30008
